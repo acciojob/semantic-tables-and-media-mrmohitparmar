@@ -1,49 +1,61 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Semantic Tables and Media</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<table>
-		<thead>
-			<tr>
-				<th>Roll Numbers</th>
-				<th>Names</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>1</td>
-				<td>Ram</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Sita</td>
-			</tr>
-			
-		</tbody>
-	</table>
-	<h1>List of medias</h1>
-	<ol>
-		<li>
-			<img src="https://picsum.photos/id/123/200/300" alt="Not found">
-		</li>
-		<li>
-			<video controls>
-				<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
-			</video>
-		</li>
-		<li>
-			<audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" controls>
-		</li>
-	</ol>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Semantic Table -->
+  <table>
+    <thead>
+      <tr>
+        <th>Roll Numbers</th>
+        <th>Names</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ram</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Sita</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Lakshman</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Required Heading -->
+  <h1>List of medias</h1>
+
+  <!-- Ordered List of Media Items -->
+  <ol>
+    <li>
+      <img src="https://picsum.photos/id/123/200/300" alt="Sample image">
+    </li>
+    <li>
+      <video controls width="320">
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </li>
+    <li>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        Your browser does not support the audio tag.
+      </audio>
+    </li>
+  </ol>
+
+  <script type="text/javascript" src="./script.js"></script>
 
 </body>
-
 </html>
